@@ -18,7 +18,7 @@ a {
     background-color: bisque;
     height: 50px;
 
-    padding: 0 20px;
+    padding: 0 50px;
 }
 
 .navbar div:first-child {
@@ -50,6 +50,7 @@ main {
 
     display: flex;
     flex-direction: column;
+	padding: 0 40px;
 }
 
 .collection {

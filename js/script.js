@@ -47,6 +47,7 @@ document
         // Por ejemplo:
         if (username === "admin" && password === "admin") {
             alert("Inicio de sesión exitoso!");
+            redirectToHome();
         } else {
             alert("Credenciales incorrectas. Inténtalo de nuevo.");
         }
@@ -64,6 +65,7 @@ document
         alert(
             "¡Registro exitoso! Ahora puedes iniciar sesión con tu nueva cuenta."
         );
+        redirectToHome();
     });
 
 document
@@ -87,4 +89,16 @@ function showForm(formId) {
             formContainer.style.display = "none";
         });
     document.getElementById(formId).style.display = "block";
+
+    if (formId === "login-form") {
+        document.title = "Login";
+        currentForm = "login-form";
+    } else if (formId === "register-form") {
+        document.title = "Registro";
+        currentForm = "register-form";
+    }
+}
+
+function redirectToHome() {
+    window.location.href = "../index.html";
 }
