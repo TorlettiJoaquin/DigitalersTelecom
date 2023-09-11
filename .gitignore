@@ -246,3 +246,5 @@ Release/
 /git.VC.db
 *.dSYM
 /contrib/buildsystems/out
+backend/package-lock.json
+backend/node_modules
