@@ -253,5 +253,4 @@ backend/node_modules
 backend/BACKEND2/node_modules
 
 backend/BACKEND2/.env
-env
 .env
