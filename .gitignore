@@ -248,3 +248,6 @@ Release/
 /contrib/buildsystems/out
 backend/package-lock.json
 backend/node_modules
+
+/node_modules
+backend/BACKEND2/node_modules
