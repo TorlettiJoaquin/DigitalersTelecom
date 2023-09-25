@@ -252,4 +252,6 @@ backend/node_modules
 /node_modules
 backend/BACKEND2/node_modules
 
-backend\BACKEND2\.env
+backend/BACKEND2/.env
+env
+.env
